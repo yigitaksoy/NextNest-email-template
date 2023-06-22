@@ -1,0 +1,25 @@
+<!-- {{ data = page.header || {} }} -->
+
+<tr>
+  <td align="center" class="{{ data.background || 'bg-slate-darkest' }}">
+    <!--[if (gte mso 9)|(IE)]>
+      <table align="center" border="0" cellspacing="0" cellpadding="0" width="500">
+        <tr>
+          <td align="center" valign="top" width="500">
+            <![endif]-->
+            <table class="w-full max-w-[500px] sm:max-w-full">
+              <tr>
+                <td align="center" class="py-[15px] align-top">
+                  <a href="{{ data.logo ? data.logo.url : 'https://litmus.com' }}" target="_blank">
+                    <img class="text-base text-white" src="{{ data.logo ? data.logo.img : 'slate/newsletter/logo-1.jpg' }}" width="60" alt="{{ data.logo ? data.logo.alt : 'Logo' }}">
+                  </a>
+                </td>
+              </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+          </td>
+        </tr>
+      </table>
+    <![endif]-->
+  </td>
+</tr>

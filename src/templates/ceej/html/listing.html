@@ -1,0 +1,173 @@
+---
+title: "New Account"
+preheader: "We're thrilled to have you here! Get ready to dive into your new account."
+bodyClass: bg-ceej-body
+googleFonts: "family=Lato"
+---
+
+<extends src="src/layouts/main.html">
+  <block name="template">
+    <table class="w-full all:font-degular text-black">
+      <!-- LOGO -->
+      <tr>
+        <td align="center" class="bg-ceej-black">
+          <!--[if (gte mso 9)|(IE)]>
+            <table align="center" cellspacing="0" cellpadding="0" style="width: 600px;">
+              <tr>
+                <td align="center" valign="top">
+                  <![endif]-->
+          <table class="w-full max-w-[500px]">
+            <tr>
+              <td align="center" class="py-10 px-2.5 align-top">
+                <a href="https://litmus.com" target="_blank">
+                  <img
+                    src="https://nextnest.vercel.app/assets/nextnest-white-10e5b1a7.png"
+                    alt="Logo"
+                    class="w-44 text-white"
+                  />
+                </a>
+              </td>
+            </tr>
+          </table>
+          <!--[if (gte mso 9)|(IE)]>
+                </td>
+              </tr>
+            </table>
+          <![endif]-->
+        </td>
+      </tr>
+      <!-- CONTAINER STARTS -->
+      <tr>
+        <td align="center" class="p-4">
+          <table
+            class="containerShadow shadow-searchBar mt-10 rounded-2xl mb-10 sm:w-full w-[500px]"
+            style="border: 3px solid black"
+          >
+            <!-- Add your styles or classes here -->
+            <!-- HERO -->
+            <tr>
+              <td align="center" class="px-2.5 bg-white">
+                <!--[if (gte mso 9)|(IE)]>
+                    <table align="center" cellspacing="0" cellpadding="0" style="width: 600px;">
+                      <tr>
+                        <td align="center" valign="top">
+                          <![endif]-->
+                <table class="w-full mt-11 shadow-searchBar rounded-xl">
+                  <tr>
+                    <td
+                      align="center"
+                      class="align-top rounded-tl-xl rounded-tr-xl leading-12 text-black bg-white"
+                    >
+                      <h1
+                        class="m-0 text-5xl sm:text-[32px] sm:leading-8 font-normal tracking-loose"
+                      ></h1>
+                    </td>
+                  </tr>
+                </table>
+                <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                      </tr>
+                    </table>
+                  <![endif]-->
+              </td>
+            </tr>
+            <!-- COPY BLOCK -->
+            <tr>
+              <td align="center" class="px-2.5 bg-white rounded-2xl">
+                <!--[if (gte mso 9)|(IE)]>
+                    <table align="center" cellspacing="0" cellpadding="0" style="width: 600px;">
+                      <tr>
+                        <td align="center" valign="top">
+                          <![endif]-->
+                <table class="w-full">
+                  <!-- COPY -->
+                  <tr id="listing">
+                    <td
+                      align="left"
+                      class="pt-[5px] px-7.5 pb-10 leading-[25px] text-black bg-white"
+                    >
+                      <p class="m-0 text-md text-center">
+                        We're excited to let you know that we've found
+                        <span class="font-bold text-black"
+                          >{{number_of_listings}}</span
+                        >
+                        new listings for you!
+                      </p>
+                    </td>
+                  </tr>
+                  <!-- LISTING CONTAINER -->
+                  <tr>
+                    <td align="" class="p-6">
+                      <table class="w-2/4 sm:w-full">
+                        <tr>
+                          <td>
+                            <div
+                              style="
+                                position: relative;
+                                width: 100%;
+                                height: 0;
+                                padding-bottom: 50%;
+                              "
+                            >
+                              <img
+                                class="rounded"
+                                src="https://cloud.funda.nl/valentina_media/176/466/827_2160.jpg"
+                                alt=""
+                                style="
+                                  position: absolute;
+                                  top: 0;
+                                  left: 0;
+                                  width: 100%;
+                                  height: 100%;
+                                  object-fit: cover;
+                                "
+                              />
+                            </div>
+                            <div class=" bg-white ">
+                              <span class="text-xs text-slate-500">Neighbourhood</span>
+                              <h2 class="mt-2 mb-3 text-2xl leading-full">
+                                <a
+                                  href="https://example.com"
+                                  class="text-black hover:text-slate-700 [text-decoration:none]"
+                                >
+                                  {{ listing.title }}
+                                </a>
+                              </h2>
+                              <h2 class="mt-2 mb-3 text-2xl leading-full text-black hover:text-slate-700">
+                                {{ listing.title }}
+                              </h2>
+                              <p class="m-0 mb-6 text-base text-slate-500">
+                                
+                              </p>
+                              <a
+                                href="https://example.com"
+                                class="text-black [text-decoration:none] hover:[text-decoration:underline] font-nove"
+                              >
+                                Listing Details &rarr;
+                              </a>
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+
+                
+                  
+                <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                      </tr>
+                    </table>
+                  <![endif]-->
+              </td>
+            </tr>
+            <!-- SUPPORT CALLOUT -->
+          </table>
+        </td>
+      </tr>
+      <!-- CONTAINER ENDS -->
+      <!-- FOOTER -->
+      <component src="src/components/ceej/html-footer.html"></component>
+    </table>
+  </block>
+</extends>

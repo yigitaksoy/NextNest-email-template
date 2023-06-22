@@ -1,0 +1,84 @@
+---
+title: "A Responsive Email Template"
+preheader: "Entice the open with some amazing preheader text. Use a little mystery and get those subscribers to read through..."
+header:
+  background: bg-white
+  logo:
+    img: slate/announcement/logo-2.png
+---
+
+<extends src="src/layouts/main.html">
+  <block name="template">
+    <table class="w-full all:font-sans">
+      <component src="src/components/slate/header.html"></component>
+      <tr>
+        <td align="center" class="py-[70px] px-[25px] sm:py-[50px] sm:px-[15px] bg-blue-slate">
+          <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="500">
+              <tr>
+                <td align="center" valign="top" width="500">
+                  <![endif]-->
+                  <table class="w-full max-w-[500px] sm:max-w-full">
+                    <tr>
+                      <td>
+                        <!-- HERO IMAGE -->
+                        <table class="w-full">
+                          <tr>
+                            <td align="center" class="sm:p-[15px]">
+                              <a href="https://litmus.com" target="_blank">
+                                <img src="slate/announcement/video-1.png" width="500" class="text-base [text-decoration:none] text-blue-700">
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <!-- COPY -->
+                              <table class="w-full">
+                                <tr>
+                                  <td align="center"class="pt-7.5 sm:p-[15px]">
+                                    <h1 class="m-0 text-3xl font-normal text-slate-darkest">Our Biggest Update Ever</h1>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center"class="pt-[5px] sm:p-[15px]">
+                                    <p class="m-0 text-base leading-[25px] text-slate-dark">
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, a faucibus libero lacus a est. Aenean at mollis ipsum.
+                                    </p>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="center">
+                              <!-- BULLETPROOF BUTTON -->
+                              <table class="w-full">
+                                <tr>
+                                  <td align="center" class="pt-[25px] sm:p-[15px]">
+                                    <table class="sm:w-full sm:mx-auto">
+                                      <tr>
+                                        <td align="center" class="rounded-sm bg-blue-700 hover:bg-blue-600">
+                                          <a href="https://litmus.com" target="_blank" class="inline-block sm:block py-[15px] px-[25px] sm:p-[15px] text-base rounded-sm sm:border-0 [text-decoration:none] text-white" style="border: 1px solid #256F9C;">Watch Now &rarr;</a>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!--[if (gte mso 9)|(IE)]>
+                </td>
+              </tr>
+            </table>
+          <![endif]-->
+        </td>
+      </tr>
+      <component src="src/components/slate/footer.html"></component>
+    </table>
+  </block>
+</extends>
