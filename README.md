@@ -1,16 +1,6 @@
 <h3 align="center">
 NextNest Listing Email Template
 </h3>
-<div align="center">
-  <p>
-    <a href="https://nextnest.vercel.app" target="_blank">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/yigitaksoy/Nextnest-email/blob/master/src/assets/images/nextnest-white.png">
-        <img alt="NextNest Logo" src="https://github.com/yigitaksoy/Nextnest-email/blob/master/src/assets/images/nextnest-white-shadow.png" width="300" height="70" style="max-width: 100%;">
-      </picture>
-    </a>
-  </p>
-</div>
 
 ### About
 
