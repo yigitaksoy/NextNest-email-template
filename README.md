@@ -3,7 +3,7 @@
     <a href="https://nextnest.vercel.app" target="_blank">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github.com/yigitaksoy/Nextnest-email/blob/master/src/assets/images/nextnest-white.png">
-        <img alt="NextNest Email Template" src="https://github.com/yigitaksoy/Nextnest-email/blob/master/src/assets/images/nextnest-white-shadow.png" width="300" height="225" style="max-width: 100%;">
+        <img alt="NextNest Email Template" src="https://github.com/yigitaksoy/Nextnest-email/blob/master/src/assets/images/nextnest-white-shadow.png" width="300" height="125" style="max-width: 100%;">
       </picture>
     </a>
   </p>
