@@ -2,8 +2,8 @@
   <p>
     <a href="https://nextnest.vercel.app" target="_blank">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/yigitaksoy/Nextnest-email/blob/master/src/assets/images/nextnest-white-shadow.png">
-        <img alt="NextNest Email Template" src="https://github.com/yigitaksoy/Nextnest-email/blob/master/src/assets/images/nextnest-white.png" width="300" height="225" style="max-width: 100%;">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/yigitaksoy/Nextnest-email/blob/master/src/assets/images/nextnest-white.png">
+        <img alt="NextNest Email Template" src="https://github.com/yigitaksoy/Nextnest-email/blob/master/src/assets/images/nextnest-white-shadow.png" width="300" height="225" style="max-width: 100%;">
       </picture>
     </a>
   </p>
