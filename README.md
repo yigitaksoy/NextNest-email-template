@@ -4,7 +4,7 @@ NextNest Listing Email Template
 
 ### About
 
-This is a custom built email template for <a href="https://nextnest.vercel.app" target="_blank">NextNest</a> built with [Tailwind CSS](https://tailwindcss.com) in [Maizzle](https://maizzle.com).
+This is a custom built email template for <a href="https://nextnest.vercel.app" target="_blank">NextNest</a> built with [Tailwind CSS](https://tailwindcss.com) & [Adobe Fonts](https://fonts.adobe.com/) in [Maizzle](https://maizzle.com).
 
 <h3 align="center">
   <img src="https://github.com/yigitaksoy/Nextnest-email/blob/master/src/assets/images/nextnest-listing-template.png" alt="Template Preview">
